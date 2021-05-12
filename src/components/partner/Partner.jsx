@@ -11,7 +11,7 @@ const Partner = () => {
         <section id="partner">
             <div className="container">
                 <div className="section-title">
-                    <h1>Tujuan Instansi</h1>
+                    <h1>Instansi Tujuan</h1>
                     <Divider isTitle="true" />
                 </div>
                 <div className="row no-gutters partner-wrap clearfix">
