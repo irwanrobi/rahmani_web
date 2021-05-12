@@ -1,0 +1,39 @@
+#document-legalisasi {
+    
+    .container {
+        border-radius: 50px;
+        padding: 70px 0 30px 0;
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+.document-legalisasi-detail {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+
+    img {
+        height: 100px;
+        max-height: 100px;
+        margin-bottom: 20px;
+    }
+}
+
+.dokumen_komersial {
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .document-legalisasi-detail {
+        width: 50%;
+    }
+}

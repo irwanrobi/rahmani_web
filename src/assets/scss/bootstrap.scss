@@ -1,0 +1,207 @@
+/*!
+ * Bootstrap v5.0.0 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+// scss-docs-start import-stack
+// Configuration
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "utilities";
+
+// Layout & components
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "containers";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "accordion";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "alert";
+@import "progress";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "offcanvas";
+
+// Helpers
+@import "helpers";
+
+// Utilities
+@import "utilities/api";
+// scss-docs-end import-stack
+
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=DM+Serif+Display:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.642;
+    overflow-x: hidden;
+    width: 100vw;
+}
+  
+code {
+    font-family: "Courier Prime", monospace;
+}
+  
+
+.divider {
+    height: 5px;
+    background-color: $primary;
+    margin-bottom: 40px;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 10px;
+}
+
+.divider_secondary {
+    background-color: $secondary;
+}
+
+.bg-section-light {
+    background-color: #F0F0F0;
+    margin-top: 70px;
+    border-radius: 50px;
+    padding: 70px 0;
+}
+
+.bg-section-dark {
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("https://images.pexels.com/photos/48148/document-agreement-documents-sign-48148.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-size: cover;
+    border-radius: 50px;
+    padding: 70px 0;
+    margin-top: 70px;
+}
+
+h1, h2, h3, h4 {
+    font-family: "DM Serif Display", serif;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+img {
+    max-width: 100%;
+}
+  
+p {
+    font-size: 18px;
+    color: $gray-custom;
+    font-weight: 400;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: $primary;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+}
+a:hover,
+a:focus {
+    color: $primary;
+    text-decoration: none;
+    outline: none;
+}
+a img {
+    border: none;
+}
+.form-control {
+    border-radius: 10px;
+}
+.form-control:active,
+.form-control:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.btn {
+    border-radius: 10px !important;
+}
+
+::selection {
+    background: $primary;
+    color: #000000;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    /* Firefox */
+    background: $primary;
+    color: #000000;
+    text-shadow: none;
+}
+
+::-webkit-selection {
+    /* Safari */
+    background: $primary;
+    color: #000000;
+    text-shadow: none;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    // margin-bottom: 0px;
+}

@@ -1,0 +1,42 @@
+#hero {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("https://images.pexels.com/photos/48148/document-agreement-documents-sign-48148.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-size: cover;
+  padding: 80px 0 100px 0;
+  color: white;
+  border-radius: 0 0 50px 50px;
+}
+
+.brand-element-img {
+  width: 450px;
+}
+
+.hero-title {
+  font-family: "DM Serif Display", serif;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.hero-subtitle {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1200px) {
+  .brand-element {
+    display: none;
+  }
+
+  .hero-text {
+    align-items: center;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

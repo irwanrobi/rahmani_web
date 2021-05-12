@@ -1,0 +1,20 @@
+#document-terjemah {
+    margin-top: -300px;
+
+    .container {
+        border-radius: 50px;
+    }
+}
+
+.document-terjemah-detail {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        height: 200px;
+        max-height: 200px;
+        margin-bottom: 40px;
+    }
+}
