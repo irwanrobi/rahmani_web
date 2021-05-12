@@ -10,7 +10,7 @@ const Instansi = () => {
         <section id="instansi">
             <div className="container">
                 <div className="section-title">
-                    <h1>Tujuan Instansi</h1>
+                    <h1>Instansi Tujuan</h1>
                     <Divider isTitle="true" />
                 </div>
                 <div class="row gx-5">
