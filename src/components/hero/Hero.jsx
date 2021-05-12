@@ -5,6 +5,10 @@ import BrandElement from "../../assets/images/brand/brand-element.png";
 import Divider from "../../elements/divider/Divider";
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+library.add(fab);
 
 const Hero = () => {
   return (
@@ -50,7 +54,7 @@ const Hero = () => {
                 isOutlinePrimary="yes"
                 isLarge="yes"
               >
-                WhatsApp
+                <FontAwesomeIcon icon={['fab', 'whatsapp']} /> WhatsApp
               </Button>
             </div>
             </Fade>
