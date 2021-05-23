@@ -3,6 +3,10 @@
 
     .container {
         border-radius: 50px;
+
+        .row {
+            user-select: none;
+        }
     }
 }
 

@@ -128,7 +128,7 @@ const Footer = () => {
         </div>
 
         <div class="footer-copyright text-center">© 2021 Copyright by
-            <a href="https://mdbootstrap.com/"> Rahmani Agency</a>.
+            <a href={process.env.REACT_APP_URL}> Rahmani Agency</a>.
         </div>
 
         </footer>
