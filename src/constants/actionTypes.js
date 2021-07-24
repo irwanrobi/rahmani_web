@@ -1,0 +1,15 @@
+export const CREATE_OFFER = 'CREATE_OFFER';
+export const UPDATE_OFFER = 'UPDATE_OFFER';
+export const DELETE_OFFER = 'DELETE_OFFER';
+export const FETCH_OFFER = 'FETCH_OFFER';
+export const FETCH_ALL_OFFERS = 'FETCH_ALL_OFFERS';
+
+export const CREATE_ARTICLE = 'CREATE_ARTICLE';
+export const UPDATE_ARTICLE = 'UPDATE_ARTICLE';
+export const DELETE_ARTICLE = 'DELETE_ARTICLE';
+export const FETCH_ARTICLE = 'FETCH_ARTICLE';
+export const FETCH_ALL_ARTICLES = 'FETCH_ALL_ARTICLES';
+
+export const CREATE_USER = 'CREATE_USER';
+export const UPDATE_USER = 'UPDATE_USER';
+

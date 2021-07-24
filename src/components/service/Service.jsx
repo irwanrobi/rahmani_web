@@ -12,7 +12,7 @@ const Service = () => {
                             <div className="card-body">
                                 <h2 className="card-title">Jasa Legalisasi</h2>
                                 <Divider isTitle="true" />
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia a eius, ipsa assumenda iure accusamus. Obcaecati, sit nam! Soluta ullam doloribus voluptatem ducimus sed labore, magni eos sunt fuga maiores!</p>
+                                <p class="card-text">Legalisasi merupakan jasa layanan hukum yang dapat membantu Anda untuk mendapatkan Sertifikasi atau Pengesahan Ulang dari Kementrian dan Kedutaan Asing.</p>
                             </div>
                         </div>
                     </div>
@@ -21,7 +21,7 @@ const Service = () => {
                             <div className="card-body">
                                 <h2 className="card-title">Jasa Terjemah</h2>
                                 <Divider isTitle="true" />
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia a eius, ipsa assumenda iure accusamus. Obcaecati, sit nam! Soluta ullam doloribus voluptatem ducimus sed labore, magni eos sunt fuga maiores!</p>
+                                <p class="card-text">Tim profesional Penerjemah Tersumpah dari Rahmani telah memiliki SK Gubernur dari DKI Jakarta dan HPI sebagai Organisasi Utama Penerjemah Indonesia</p>
                             </div>
                         </div>
                     </div>

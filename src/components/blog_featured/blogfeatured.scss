@@ -1,5 +1,5 @@
 .blog-featured {
-    padding: 70px;
+    padding: 70px 70px 0px 70px;
     border-radius: 50px;
 }
 
@@ -10,6 +10,8 @@
     border-radius: 30px;
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 70px;
+    color: #2B2D42;
 
     .blog-card-body {
         padding: 20px;
@@ -27,7 +29,7 @@
 @media only screen and (max-width: 1200px) {
 
     .blog-featured {
-        padding: 70px 40px;
+        padding: 70px 40px 30px 40px;
     }
 
     .blog-card {

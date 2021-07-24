@@ -11,7 +11,7 @@ const Motto = () => {
                     <Divider isTitle="true" />
                 </div>
                 <div className="row">
-                    <p className="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus natus voluptatem eligendi aliquid nemo rerum suscipit. Eum fugiat harum id voluptates perspiciatis quas obcaecati qui provident temporibus autem. Dolor, eligendi.</p>
+                    <p className="lead">Kami membantu anda menyelesaikan masalah administratif serta membantu perusahaan dan bisnis anda berkembang cepat di dalam lingkup internasional</p>
                 </div>
             </div>
         </section>

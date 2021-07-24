@@ -17,7 +17,7 @@ const Terjemahan = () => {
             <div className="bg-section-light">
                 <Intro
                     Title="Apa itu Jasa Legalisasi?" 
-                    Content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta distinctio optio tenetur asperiores deleniti repudiandae in ipsam explicabo aut officia dignissimos voluptas, obcaecati, quos id facere quis eligendi illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore est, dolorem nam nulla perferendis autem itaque iste sunt fugiat non, aliquid reprehenderit possimus. Velit odit deserunt quis, esse quos minus!"
+                    Content="Jasa legalisasi dokumen tentunya sangat membantu bagi anda yang sedang mendirikan sebuah badan usaha atau hal yang berkaitan dengan keharusan membuat legalitas. Agar lembaga atau badan usaha yang anda buat mendapatkan perlindungan secara hukum dan bisa beroperasi sesuai dengan ketentuan negara, maka hal tersebut harus terdaftar dan memerlukan Jasa legalisasi dokumen."
                     Image={ImageFeatured} />
                 <Instansi />
                 <DocumentLegalisasi />

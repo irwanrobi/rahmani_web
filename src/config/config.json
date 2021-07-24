@@ -1,0 +1,11 @@
+{
+    "social_media": {
+        "facebook": "https://www.facebook.com",
+        "instagram": "https://www.instagram.com",
+        "twitter": "https://www.twitter.com",
+        "linkedin": "https://www.linkedin.com"
+    }
+    ,
+    "phone_number": "(+62) 815-8761-483",
+    "whatsapp_link": "https://api.whatsapp.com/send/?phone=628158761483"
+}

@@ -1,5 +1,7 @@
 import React from 'react';
 import './footer.scss';
+import { Link } from 'react-router-dom'
+import config from '../../config/config.json'
 import Button from "../../elements/button/Button";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -19,28 +21,28 @@ const Footer = () => {
 
                 <div className="contact-phone">
                     <i class="material-icons">phone_in_talk</i>
-                    <h4 class="text-uppercase"> (+62) 812-456-789</h4>
+                    <h4 class="text-uppercase"> {config.phone_number}</h4>
                 </div>
 
                 
                 <ul class="list-unstyled list-inline footer-social-media">
                     <li class="list-inline-item">
-                        <a class="btn-floating">
+                        <a class="btn-floating" href={config.social_media.facebook}>
                         <FontAwesomeIcon icon={['fab', 'facebook-f']} />
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="btn-floating">
+                        <a class="btn-floating" href={config.social_media.instagram}>
                         <FontAwesomeIcon icon={['fab', 'instagram']} />
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="btn-floating">
+                        <a class="btn-floating" href={config.social_media.twitter}>
                         <FontAwesomeIcon icon={['fab', 'twitter']} />
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="btn-floating">
+                        <a class="btn-floating" href={config.social_media.linkedin}>
                         <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
                         </a>
                     </li>
@@ -51,14 +53,14 @@ const Footer = () => {
                 <div className="container">
                     <div className="row mb-5">
                         <div className="col-md-12">
-                            <Button
-                                className="text-decoration-none px-5 py-3"
-                                href=""
-                                type="link"
-                                isOutlinePrimary="yes"
-                                isLarge="yes">
-                                Minta Penawaran
-                            </Button>
+                                <Button
+                                    className="text-decoration-none px-5 py-3"
+                                    href="/contact"
+                                    type="link"
+                                    isOutlinePrimary="yes"
+                                    isLarge="yes">
+                                    Minta Penawaran
+                                </Button>
                         </div>
                     </div>
                     <div className="row">
@@ -75,7 +77,7 @@ const Footer = () => {
                                 <li>
                                     <Button
                                         className="text-decoration-none footer-link"
-                                        href=""
+                                        href="/blog"
                                         type="link">
                                         Blog
                                     </Button>
@@ -96,7 +98,7 @@ const Footer = () => {
                                 <li>
                                     <Button
                                         className="text-decoration-none footer-link"
-                                        href=""
+                                        href="/legalisasi"
                                         type="link">
                                         Legalisasi
                                     </Button>
@@ -104,7 +106,7 @@ const Footer = () => {
                                 <li>
                                     <Button
                                         className="text-decoration-none footer-link"
-                                        href=""
+                                        href="/terjemahan"
                                         type="link">
                                         Terjemahan
                                     </Button>

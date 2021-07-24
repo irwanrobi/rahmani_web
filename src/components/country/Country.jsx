@@ -1,7 +1,7 @@
 import React from 'react';
 import './country.scss';
 import Divider from "../../elements/divider/Divider";
-import FlagUK from "../../assets/images/flag_uk.png";
+import { US, CN, AE, DE, JP, NL} from 'country-flag-icons/react/3x2';
 
 const Country = () => {
     return (
@@ -13,34 +13,34 @@ const Country = () => {
                 </div>
                 <div class="row gx-5">
                     <div class="col-sm-4 col-lg-4 country-detail">
-                        <img src={FlagUK} className="country-img" alt="" />
+                        <US title="United States" className="country-img"/>
                         <p>Inggris - Indonesia</p>
                         <p>Indonesia - Inggris</p>
                     </div>
                     <div class="col-sm-4 col-lg-4 country-detail">
-                        <img src={FlagUK} className="country-img" alt="" />
-                        <p>Inggris - Indonesia</p>
-                        <p>Indonesia - Inggris</p>
+                        <CN title="Mandarin" className="country-img"/>
+                        <p>Mandarin - Indonesia</p>
+                        <p>Indonesia - Mandarin</p>
                     </div>
                     <div class="col-sm-4 col-lg-4 country-detail">
-                        <img src={FlagUK} className="country-img" alt="" />
-                        <p>Inggris - Indonesia</p>
-                        <p>Indonesia - Inggris</p>
+                        <AE title="Uni Emirat Arab" className="country-img"/>
+                        <p>Arab - Indonesia</p>
+                        <p>Indonesia - Arab</p>
                     </div>
                     <div class="col-sm-4 col-lg-4 country-detail">
-                        <img src={FlagUK} className="country-img" alt="" />
-                        <p>Inggris - Indonesia</p>
-                        <p>Indonesia - Inggris</p>
+                        <DE title="Jerman" className="country-img"/>
+                        <p>Jerman - Indonesia</p>
+                        <p>Indonesia - Jerman</p>
                     </div>
                     <div class="col-sm-4 col-lg-4 country-detail">
-                        <img src={FlagUK} className="country-img" alt="" />
-                        <p>Inggris - Indonesia</p>
-                        <p>Indonesia - Inggris</p>
+                        <JP title="Jepang" className="country-img"/>
+                        <p>Jepang - Indonesia</p>
+                        <p>Indonesia - Jepang</p>
                     </div>
                     <div class="col-sm-4 col-lg-4 country-detail">
-                        <img src={FlagUK} className="country-img" alt="" />
-                        <p>Inggris - Indonesia</p>
-                        <p>Indonesia - Inggris</p>
+                        <NL title="Belanda" className="country-img"/>
+                        <p>Belanda - Indonesia</p>
+                        <p>Indonesia - Belanda</p>
                     </div>
                 </div>
             </div>

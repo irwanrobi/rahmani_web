@@ -18,7 +18,9 @@ const Terjemahan = () => {
             <div className="bg-section-light">
                 <Intro
                     Title="Apa itu Jasa Penerjemah?" 
-                    Content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta distinctio optio tenetur asperiores deleniti repudiandae in ipsam explicabo aut officia dignissimos voluptas, obcaecati, quos id facere quis eligendi illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore est, dolorem nam nulla perferendis autem itaque iste sunt fugiat non, aliquid reprehenderit possimus. Velit odit deserunt quis, esse quos minus!"
+                    Content="Ciri utama penerjemah tersumpah adalah sudah pasti memiliki Surat Keputusan (SK) Gubernur DKI Jakarta. Karena mereka baru bisa praktik legal dan disebut certified translator jika memiliki SK Gubernur DKI Jakarta. Lantaran berhak menerjemahkan dokumen resmi negara, tanda tangan atau cap penerjemah tersumpah terdaftar di kedutaan-kedutaan besar negara sahabat. Hal ini bertujuan supaya pihak Dubes mudah memvalidasi hasil terjemahan.
+
+                    Dengan kualitas terjemahan yang terbaik, sudah pasti tarif translator tersumpah di atas penerjemah biasa. Namun hasil terjemahan jelas sebanding dengan harga yang ditetapkan."
                     Image={ImageFeatured} />
                 <Country />
             </div>

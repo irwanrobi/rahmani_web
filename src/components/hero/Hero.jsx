@@ -1,5 +1,6 @@
 import React from "react";
 import "./hero.scss";
+import config from '../../config/config.json'
 import Button from "../../elements/button/Button";
 import BrandElement from "../../assets/images/brand/brand-element.png";
 import Divider from "../../elements/divider/Divider";
@@ -32,7 +33,7 @@ const Hero = () => {
             </Fade>
             <Fade bottom delay={1000}>
             <p className="lead hero-subtitle">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, deleniti dolore alias commodi adipisci vero excepturi eveniet nobis natus sunt voluptas dolor laudantium, atque officiis harum pariatur autem veritatis ratione?
+              Rahmani Solusi Dokumen merupakan jasa penerjemah tersumpah, interpreter dan legalisasi. Layanan kami sudah sah di mata hukum dan dapat digunakan untuk berbagai kepentingan, selain itu Rahmani Solusi Dokumen sudah memenuhi syarat administrasi serta layanan hukum dengan menggunakan manajemen ISO 9001:2015.
             </p>
             </Fade>
             <Fade bottom delay={1500}>
@@ -40,7 +41,7 @@ const Hero = () => {
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
               <Button
                 className="text-decoration-none px-5 py-3 me-md-2"
-                href=""
+                href="#form-offer"
                 type="link"
                 isPrimary="yes"
                 isLarge="yes"
@@ -49,10 +50,11 @@ const Hero = () => {
               </Button>
               <Button
                 className="text-decoration-none px-5 py-3"
-                href=""
+                href={config.whatsapp_link}
                 type="link"
                 isOutlinePrimary="yes"
                 isLarge="yes"
+                target="_blank"
               >
                 <FontAwesomeIcon icon={['fab', 'whatsapp']} /> WhatsApp
               </Button>
