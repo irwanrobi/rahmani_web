@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const url = process.env.REACT_APP_API_URL;
+// const url = process.env.REACT_APP_API_URL;
+const url = `https://nodejs-rahmani-backend.herokuapp.com`;
 
 export const fetchOfferMessages = () => axios.get(`${url}/offers`);
 export const fetchOfferMessageDetail = (id) => axios.get(`${url}/offers/${id}`);

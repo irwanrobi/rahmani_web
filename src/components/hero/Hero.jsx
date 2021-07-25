@@ -48,16 +48,9 @@ const Hero = () => {
               >
                 Minta Penawaran
               </Button>
-              <Button
-                className="text-decoration-none px-5 py-3"
-                href={config.whatsapp_link}
-                type="link"
-                isOutlinePrimary="yes"
-                isLarge="yes"
-                target="_blank"
-              >
+              <a className="text-decoration-none px-5 py-3 btn btn-outline-primary btn-lg" href={config.whatsapp_link} target="_blank">
                 <FontAwesomeIcon icon={['fab', 'whatsapp']} /> WhatsApp
-              </Button>
+              </a>
             </div>
             </Fade>
           </div>

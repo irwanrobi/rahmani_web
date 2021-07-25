@@ -27,22 +27,22 @@ const Footer = () => {
                 
                 <ul class="list-unstyled list-inline footer-social-media">
                     <li class="list-inline-item">
-                        <a class="btn-floating" href={config.social_media.facebook}>
+                        <a class="btn-floating" href={config.social_media.facebook} target="_blank">
                         <FontAwesomeIcon icon={['fab', 'facebook-f']} />
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="btn-floating" href={config.social_media.instagram}>
+                        <a class="btn-floating" href={config.social_media.instagram} target="_blank">
                         <FontAwesomeIcon icon={['fab', 'instagram']} />
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="btn-floating" href={config.social_media.twitter}>
+                        <a class="btn-floating" href={config.social_media.twitter} target="_blank">
                         <FontAwesomeIcon icon={['fab', 'twitter']} />
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="btn-floating" href={config.social_media.linkedin}>
+                        <a class="btn-floating" href={config.social_media.linkedin} target="_blank">
                         <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
                         </a>
                     </li>
