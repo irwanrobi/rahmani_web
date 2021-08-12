@@ -20,7 +20,7 @@ const Service = () => {
                         </Link>
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-6">
-                        <Link to="/legalisasi" className="link-to"> 
+                        <Link to="/terjemahan" className="link-to"> 
                         <div className="service-card">
                             <div className="card-body">
                                 <h2 className="card-title">Jasa Terjemah</h2>
