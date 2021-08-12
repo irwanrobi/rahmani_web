@@ -34,6 +34,14 @@
 }
 
 @media only screen and (max-width: 768px) {
+    #document-legalisasi {
+        margin-bottom: -70px;
+    
+        .container {
+            border-radius: 25px;
+        }
+    }
+
     .document-legalisasi-detail {
         width: 50%;
     }

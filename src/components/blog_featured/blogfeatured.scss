@@ -43,3 +43,10 @@
         }
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .blog-featured {
+        border-radius: 25px;
+        margin-bottom: -70px;
+    }
+}

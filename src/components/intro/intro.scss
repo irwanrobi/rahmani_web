@@ -7,3 +7,9 @@
     padding: 70px;
     text-align: center;
 }
+
+@media only screen and (max-width: 768px) {
+    .intro-bg {
+        border-radius: 25px;
+    }
+}

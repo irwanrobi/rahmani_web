@@ -43,6 +43,11 @@ const NavBar = () => {
               </NavLink>
             </li>
             <li class="nav-item">
+              <NavLink to="/blog" className="nav-item-link" activeClassName="navbar-link-active">
+                  <span className="nav-link">Blog</span>
+              </NavLink>
+            </li>
+            <li class="nav-item">
               <NavLink to="/contact" className="nav-item-link" activeClassName="navbar-link-active">
                   <span className="nav-link">Kontak</span>
               </NavLink>

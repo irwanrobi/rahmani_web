@@ -19,7 +19,7 @@ const DocumentTerjemah = () => {
                     </div>
                     <div class="col-sm-12 col-lg-4 document-terjemah-detail">
                         <img src={DokumenPendidikan} className="document-img" alt="" />
-                        <h3>Dokumen Pribadi</h3>
+                        <h3>Dokumen Pendidikan</h3>
                     </div>
                 </div>
             </div>
