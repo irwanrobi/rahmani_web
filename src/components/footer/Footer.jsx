@@ -1,7 +1,7 @@
 import React from 'react';
 import './footer.scss';
-import { Link } from 'react-router-dom'
-import config from '../../config/config.json'
+import { Link } from 'react-router-dom';
+import config from '../../config/config.json';
 import Button from "../../elements/button/Button";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -130,7 +130,7 @@ const Footer = () => {
         </div>
 
         <div class="footer-copyright text-center">© 2021 Copyright by
-            <a href={process.env.REACT_APP_URL}> Rahmani Agency</a>.
+        <Link to="/home"> Rahmani Agency</Link>.
         </div>
 
         </footer>

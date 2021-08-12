@@ -1,5 +1,13 @@
 #service {
     text-align: center;
+
+    .link-to {
+        color: #212529;
+
+        &:hover {
+            color:#EFAB23;
+        }
+    }
 }
 
 .service-card > .card-body {
