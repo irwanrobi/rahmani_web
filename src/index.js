@@ -13,22 +13,37 @@ import thunk from 'redux-thunk';
 
 import reducers from './reducers';
 
+// React-snap
+import { hydrate, render } from "react-dom";
+
 const composeEnhancers = (typeof window !== 'undefined' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) || compose;
 
 const store = createStore(
   reducers, composeEnhancers(applyMiddleware(thunk))
 );
 
-ReactDOM.render(
-  <React.StrictMode>
+
+ 
+const APP = (
     <Provider store={store}>
       <BrowserRouter>
         <App />
-      </BrowserRouter>
+      </BrowserRouter>  
     </Provider>
-  </React.StrictMode>,
-  document.getElementById("root")
 );
+
+const rootElement = document.getElementById("root");
+if (rootElement.hasChildNodes()) {
+  hydrate(APP, rootElement);
+} else {
+  render(APP, rootElement);
+}
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//   </React.StrictMode>,
+//   document.getElementById("root")
+// );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

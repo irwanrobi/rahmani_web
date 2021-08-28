@@ -6,6 +6,7 @@ import DocumentLegalisasi from '../../components/document_legalisasi/DocumentLeg
 import Footer from '../../components/footer/Footer';
 import ImageFeatured from "../../assets/images/legalisasi.png";
 import parse from 'html-react-parser';
+import {Helmet} from "react-helmet";
 
 const Terjemahan = () => {
 
@@ -13,12 +14,23 @@ const Terjemahan = () => {
 
     return (
         <>
+        <Helmet>
+          <title>Konsultan Legalisasi Dokumen dan Penerjemah Tersumpah</title>
+          <meta name="keyword" content="konsultan legalisasi, jasa legalisasi, legalisasi, legalisir, jasa legalisir, legalisasi dokumen, legalisasi kemenlu, legalisasi kemenkumham" />
+          <meta name="description" content="Jasa legalisasi kami merupakan  konsultan dokumen yang sudah profesional dan berpengalaman selama lebih dari 20 tahun ke berbagai instansi pemerintah  dan swasta" />
+          <meta name="og:title" content="Konsultan Legalisasi Dokumen dan Penerjemah Tersumpah" />
+          <meta name="og:description" content="Jasa legalisasi kami merupakan  konsultan dokumen yang sudah profesional dan berpengalaman selama lebih dari 20 tahun ke berbagai instansi pemerintah  dan swasta" />
+          <meta property="twitter:title" content="Konsultan Legalisasi Dokumen dan Penerjemah Tersumpah" />
+          <meta property="twitter:description" content="Jasa legalisasi kami merupakan  konsultan dokumen yang sudah profesional dan berpengalaman selama lebih dari 20 tahun ke berbagai instansi pemerintah  dan swasta" />
+        </Helmet>
             <Header Title={PageTitle} />
             <div className="bg-section-light">
                 <Intro
                     Title="Apa itu Jasa Legalisasi?" 
-                    Content="Jasa legalisasi dokumen tentunya sangat membantu bagi anda yang sedang mendirikan sebuah badan usaha atau hal yang berkaitan dengan keharusan membuat legalitas. Agar lembaga atau badan usaha yang anda buat mendapatkan perlindungan secara hukum dan bisa beroperasi sesuai dengan ketentuan negara, maka hal tersebut harus terdaftar dan memerlukan Jasa legalisasi dokumen."
+                    Content="Jasa legalisasi kami merupakan suatu konsultan dokumen yang sudah profesional dan berpengalaman selama lebih dari 20 tahun dalam mengatasi berbagai urusan pribadi, organisasi maupun perusahaan yang sedang membutuhkan bantuan dalam menyelesaikan urusan untuk mengesahkan dokumen ke berbagai instansi pemerintah  dan swasta."
+                    Content2="Dan tentunya kami akan sangat membantu anda yang sedang ingin melanjutkan studi atau ingin bekerja keluar negeri untuk mengesahkan dokumen sebagai keharusan membuat legalitas, agar anda dapat mendapatkan perlindungan secara hukum sesuai dengan ketentuan negara, maka hal tersebut memerlukan Jasa konsultan legalisasi dokumen."
                     Image={ImageFeatured} />
+                    <p></p>
                 <Instansi />
                 <DocumentLegalisasi />
             </div>

@@ -21,6 +21,7 @@ const Instansi = () => {
                             <li>Kementerian Luar Negeri</li>
                             <li>Kementerian Agama</li>
                             <li>Kementerian Pendidikan</li>
+                            <li>Kementrerian Restekdikti</li>
                         </ul>
                     </div>
                     <div class="col-sm-12 col-lg-6 instansi-detail">

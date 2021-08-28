@@ -17,15 +17,15 @@ const NavBar = () => {
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarsExample03"
-          aria-controls="navbarsExample03"
+          data-bs-target="#navbarHeader"
+          aria-controls="navbarHeader"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarsExample03">
+        <div class="collapse navbar-collapse" id="navbarHeader">
           <ul class="navbar-nav ms-auto mb-2 mb-sm-0">
             <li class="nav-item">
               <NavLink to="/home" className="nav-item-link" activeClassName="navbar-link-active">

@@ -7,6 +7,7 @@ import BlogCard from '../../components/blog_card/BlogCard'
 import Footer from '../../components/footer/Footer';
 import Divider from '../../elements/divider/Divider'
 import parse from 'html-react-parser';
+import {Helmet} from "react-helmet";
 import Loader from '../../elements/loader/Loader'
 
 import { getArticles } from '../../actions/articles'
@@ -26,6 +27,13 @@ const Blog = () => {
 
     return (
         <>
+         <Helmet>
+          <title>My Title</title>
+          <title>Blog: Konsultan Legalisasi Dokumen dan Penerjemah Tersumpah</title>
+          <meta name="keyword" content="blog legalisasi, jasa legalisasi, legalisasi, legalisir, jasa legalisir, legalisasi dokumen, legalisir dokumen, legalisasi kemenlu, legalisasi kemenkumham, legalisasi kedutaan" />
+          <meta name="og:title" content="Blog: Konsultan Legalisasi Dokumen dan Penerjemah Tersumpah" />
+          <meta property="twitter:title" content="BLog: Konsultan Legalisasi Dokumen dan Penerjemah Tersumpah" />
+         </Helmet>
             <Header Title={PageTitle} />
             <div className="bg-section-light">
                 <section id="blog-page">

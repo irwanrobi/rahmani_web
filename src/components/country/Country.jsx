@@ -1,7 +1,7 @@
 import React from 'react';
 import './country.scss';
 import Divider from "../../elements/divider/Divider";
-import { US, CN, AE, DE, JP, NL} from 'country-flag-icons/react/3x2';
+import { US, CN, SA, DE, FR, NL} from 'country-flag-icons/react/3x2';
 
 const Country = () => {
     return (
@@ -23,7 +23,7 @@ const Country = () => {
                         <p>Indonesia - Mandarin</p>
                     </div>
                     <div class="col-sm-4 col-lg-4 country-detail">
-                        <AE title="Uni Emirat Arab" className="country-img"/>
+                        <SA title="Saudi Arabia" className="country-img"/>
                         <p>Arab - Indonesia</p>
                         <p>Indonesia - Arab</p>
                     </div>
@@ -33,9 +33,9 @@ const Country = () => {
                         <p>Indonesia - Jerman</p>
                     </div>
                     <div class="col-sm-4 col-lg-4 country-detail">
-                        <JP title="Jepang" className="country-img"/>
-                        <p>Jepang - Indonesia</p>
-                        <p>Indonesia - Jepang</p>
+                        <FR title="Francis" className="country-img"/>
+                        <p>Prancis - Indonesia</p>
+                        <p>Indonesia - Prancis</p>
                     </div>
                     <div class="col-sm-4 col-lg-4 country-detail">
                         <NL title="Belanda" className="country-img"/>

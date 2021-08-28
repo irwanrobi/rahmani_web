@@ -6,7 +6,8 @@ import './blog-detail.scss';
 import Header from '../../components/header/Header';
 import Article from '../../components/blog_article/Article'
 import Footer from '../../components/footer/Footer';
-import Button from '../../elements/button/Button'
+import Button from '../../elements/button/Button';
+import {Helmet} from "react-helmet";
 
 const Blog = () => {
 
@@ -35,6 +36,14 @@ const Blog = () => {
 
     return (
         <>
+            <Helmet>
+                <title>{PageTitle}</title>
+                <meta name="description" content="Helmet application" />
+                <meta name="og:title" content="The Rock" />
+                <meta name="og:description" content="......" />
+                <meta property="twitter:title" content="#title" />
+                <meta property="twitter:description" content="#description" />
+            </Helmet>
             <Header Title={PageTitle} />
             <div className="bg-section-light">
                 <Article article={currentArticle} />

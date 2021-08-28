@@ -33,7 +33,7 @@ const Hero = () => {
             </Fade>
             <Fade bottom delay={1000}>
             <p className="lead hero-subtitle">
-              Rahmani Solusi Dokumen merupakan jasa penerjemah tersumpah, interpreter dan legalisasi. Layanan kami sudah sah di mata hukum dan dapat digunakan untuk berbagai kepentingan, selain itu Rahmani Solusi Dokumen sudah memenuhi syarat administrasi serta layanan hukum dengan menggunakan manajemen ISO 9001:2015.
+              Rahmani Agency merupakan jasa legalisasi dan penerjemah resmi(tersumpah). Layanan kami sudah memilki badan hukum dan dapat digunakan dalam mengatasi berbagai urusan pribadi, organisasi maupun perusahaan yang sedang membutuhkan bantuan dalam menyelesaikan urusan untuk mengesahkan dokumen ke berbagai instansi pemerintah  dan swasta.
             </p>
             </Fade>
             <Fade bottom delay={1500}>

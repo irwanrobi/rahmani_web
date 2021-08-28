@@ -10,6 +10,7 @@ import About from "./pages/about/About";
 import Blog from './pages/blog/Blog'
 import BlogDetail from './pages/blog_detail/BlogDetail'
 
+
 function App() {
   return (
     <div className="App">
