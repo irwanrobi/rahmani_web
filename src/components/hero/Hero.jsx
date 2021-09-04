@@ -21,7 +21,7 @@ const Hero = () => {
             <img
               src={BrandElement}
               className="brand-element-img d-block mx-lg-auto img-fluid"
-              alt="Rahmani Logo"
+              alt="Rahmani - jasa legalisasi"
             />
           </div>
             </Zoom>

@@ -11,7 +11,7 @@ const NavBar = () => {
     >
       <div class="container">
         <NavLink to="/home" className="navbar-brand">
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="rahmani logo - jasa legalisasi" />
         </NavLink>
         <button
           class="navbar-toggler"

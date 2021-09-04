@@ -15,7 +15,7 @@ const Instansi = () => {
                 </div>
                 <div class="row gx-5">
                     <div class="col-sm-12 col-lg-6 instansi-detail">
-                        <img src={Kementerian} className="instansi-img" alt="" />
+                        <img src={Kementerian} className="instansi-img" alt="jasa legalisasi kementerian" />
                         <ul>
                             <li>Kementerian Hukum dan HAM</li>
                             <li>Kementerian Luar Negeri</li>
@@ -25,14 +25,14 @@ const Instansi = () => {
                         </ul>
                     </div>
                     <div class="col-sm-12 col-lg-6 instansi-detail">
-                        <img src={LembagaSwasta} className="instansi-img" alt="" />
+                        <img src={LembagaSwasta} className="instansi-img" alt="jasa legalisasi lembaga swasta" />
                         <ul>
                             <li>Kamar Dagang dan Industri (KADIN)</li>
                             <li>Kantor Notaris</li>
                         </ul>
                     </div>
                     <div class="col-sm-12 col-lg-12 instansi-detail">
-                        <img src={Kedutaan} className="instansi-img" alt="" />
+                        <img src={Kedutaan} className="instansi-img" alt="jasa legalisasi kedutaan" />
                         <div className="container">
                             <div className="row">
                                 <div className="col-sm-12 col-lg-4">

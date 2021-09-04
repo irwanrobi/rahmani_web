@@ -20,7 +20,7 @@ const Partner = () => {
                             <div className="partner-img">
                                 <div class="circle-shadow">
                                     <div class="circle-primary">
-                                        <img src={Kementerian} alt="" />
+                                        <img src={Kementerian} alt="jasa legalisasi kementerian" />
                                     </div>
                                 </div>
                             </div>
@@ -33,7 +33,7 @@ const Partner = () => {
                             <div className="partner-img">
                                 <div class="circle-shadow">
                                     <div class="circle-primary">
-                                        <img src={Kedutaan} alt="" />
+                                        <img src={Kedutaan} alt="jasa legalisasi kedutaan" />
                                     </div>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ const Partner = () => {
                             <div className="partner-img">
                                 <div class="circle-shadow">
                                     <div class="circle-primary">
-                                        <img src={LembagaSwasta} alt="" />
+                                        <img src={LembagaSwasta} alt="jasa legalisasi lembaga swasta" />
                                     </div>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@ const Partner = () => {
                             <div className="partner-img">
                                 <div class="circle-shadow">
                                     <div class="circle-primary">
-                                        <img src={BUMN} alt="" />
+                                        <img src={BUMN} alt="jasa legalisasi bumn" />
                                     </div>
                                 </div>
                             </div>

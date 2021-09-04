@@ -12,7 +12,7 @@ import {Helmet} from "react-helmet";
 
 const Home = () => {
   return (
-      <>
+      <React.Fragment>
         <Helmet>
           <title>Rahmani Agency: Konsultan Jasa Legalisasi Dokumen Berpengalaman dan Terpercaya</title>
           <meta name="keyword" content="konsultan legalisasi, jasa legalisasi, legalisasi, legalisir, jasa legalisir, legalisasi dokumen, legalisir dokumen, legalisasi kemenlu, legalisasi kemenkumham, legalisasi kedutaan" />
@@ -35,7 +35,7 @@ const Home = () => {
             <BlogFeatured />
         </div>
         <Footer />
-      </>
+      </React.Fragment>
 
   )
 }

@@ -12,7 +12,7 @@ const Excellence = () => {
                     <div className="col-sm-12 col-md-4 col-lg-4">
                         <div className="excellence-card">
                             <div className="card-outline">
-                                <img src={Terjamin} class="card-img-top" alt="..." />
+                                <img src={Terjamin} class="card-img-top" alt="jasa legalisasi - terjamin" />
                                 <div className="card-body">
                                     <h2 className="card-title">Terjamin</h2>
                                 </div>
@@ -22,7 +22,7 @@ const Excellence = () => {
                     <div className="col-sm-12 col-md-4 col-lg-4">
                         <div className="excellence-card">
                             <div className="card-outline">
-                                <img src={Akurat} class="card-img-top" alt="..." />
+                                <img src={Akurat} class="card-img-top" alt="jasa legalisasi - akurat" />
                                 <div className="card-body">
                                     <h2 className="card-title">Akurat</h2>
                                 </div>
@@ -32,7 +32,7 @@ const Excellence = () => {
                     <div className="col-sm-12 col-md-4 col-lg-4">
                         <div className="excellence-card">
                             <div className="card-outline">
-                                <img src={Terjangkau} class="card-img-top" alt="..." />
+                                <img src={Terjangkau} class="card-img-top" alt="jasa legalisasi - terjangkau" />
                                 <div className="card-body">
                                     <h2 className="card-title">Terjangkau</h2>
                                 </div>
