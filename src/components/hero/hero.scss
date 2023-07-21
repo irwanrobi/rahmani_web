@@ -15,6 +15,21 @@
   width: 450px;
 }
 
+.btn-regular:hover{
+  color: #ffffff !important;
+}
+.btn-regular{
+  background-color: #EFAB23;
+  color: #ffffff;
+  padding-top: 1rem!important;
+  padding-bottom: 1rem!important;
+  width: fit-content;
+  color: #000;
+  font-size: 1.2rem;
+  // line-height: 2;
+  border-radius: 5px;
+}
+
 .hero-title {
   font-family: "DM Serif Display", serif;
   line-height: 1.5;

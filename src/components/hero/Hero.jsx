@@ -39,15 +39,15 @@ const Hero = () => {
             <Fade bottom delay={1500}>
             <Divider isTitle="false" />
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-              <Button
-                className="text-decoration-none px-5 py-3 me-md-2"
+              <a
+                className="text-decoration-none px-5 py-3 me-md-2 btn-regular"
                 href="#form-offer"
                 type="link"
                 isPrimary="yes"
                 isLarge="yes"
               >
                 Minta Penawaran
-              </Button>
+              </a>
               <a className="text-decoration-none px-5 py-3 btn btn-outline-primary btn-lg" href={config.whatsapp_link} target="_blank">
                 <FontAwesomeIcon icon={['fab', 'whatsapp']} /> WhatsApp
               </a>
