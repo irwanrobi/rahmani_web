@@ -1,5 +1,7 @@
 #instansi {
-    padding: 70px;
+    padding: 70px 0;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .instansi-detail {
@@ -14,4 +16,10 @@
 .instansi-img {
     width: 200px;
     margin-bottom: 20px;
+}
+
+
+.row-custome{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }

@@ -34,8 +34,8 @@ const Instansi = () => {
                     <div class="col-sm-12 col-lg-12 instansi-detail">
                         <img src={Kedutaan} className="instansi-img" alt="jasa legalisasi kedutaan" />
                         <div className="container">
-                            <div className="row">
-                                <div className="col-sm-12 col-lg-4">
+                            <div className="row ">
+                                <div className="col-sm-12 col-lg-4 row-custome">
                                     <ul>
                                         <li>Kedutaan Belanda</li>
                                         <li>Kedutaan China</li>
