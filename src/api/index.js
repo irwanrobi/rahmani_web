@@ -12,4 +12,6 @@ export const deleteOfferMessage = (id) => axios.delete(`${url}/offers/${id}`);
 export const fetchArticles = () => axios.get(`${url}/articles`); 
 export const fetchArticleDetail = (id) => axios.get(`${url}/articles/${id}`);
 
+export const fetchArticlesList = () => axios.get('https://blog.konsultanlegalisasi.com/wp-json/wp/v2/posts?_fields[]=title&_fields[]=link&_fields[]=excerpt&_fields[]=_links&_fields[]=slug'); 
+
 export const loginUser = (userData) => axios.post(`${url}/auth/login`, userData);

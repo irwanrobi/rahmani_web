@@ -28,9 +28,9 @@ const BlogFeatured = () => {
                     <Divider isTitle="true" />
                 </div>
                 <div class="row gx-5">
-                    {!articles.success == true ? <Loader /> : (
-                        articles.data.slice(0,3).map((article) => (
-                            <BlogCard key={article._id} article={article} slug={article.title.toLowerCase()} />
+                    {articles?.length <= 0 ? <Loader /> : (
+                        articles.slice(0,3).map((article) => (
+                            <BlogCard key={article.slug} article={article} slug={article.slug} />
                         ))
                     )}
                 </div>

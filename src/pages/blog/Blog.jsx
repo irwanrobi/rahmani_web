@@ -28,7 +28,6 @@ const Blog = () => {
     return (
         <>
          <Helmet>
-          <title>My Title</title>
           <title>Blog: Konsultan Legalisasi Dokumen dan Penerjemah Tersumpah</title>
           <meta name="keyword" content="blog legalisasi, jasa legalisasi, legalisasi, legalisir, jasa legalisir, legalisasi dokumen, legalisir dokumen, legalisasi kemenlu, legalisasi kemenkumham, legalisasi kedutaan" />
           <meta name="og:title" content="Blog: Konsultan Legalisasi Dokumen dan Penerjemah Tersumpah" />
@@ -39,9 +38,9 @@ const Blog = () => {
                 <section id="blog-page">
                     <div className="container bg-white blog-page-bg">
                         <div class="row gx-5">
-                            {!articles.success == true ? <Loader /> : (
-                                articles.data.map((article) => (
-                                    <BlogCard key={article._id} article={article} />
+                            {articles?.length <= 0 ? <Loader /> : (
+                                articles.map((article) => (
+                                    <BlogCard key={article.slug} article={article} />
                                 ))
                             )}
                         </div>

@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useState, useEffect } from 'react';
 import Swal from 'sweetalert2'
 
@@ -17,6 +18,8 @@ const FormOffer = () => {
         phone: '',
         messageText: ''
     })
+
+    const [loading, setLoading] = useState(false)
 
     const dispatch = useDispatch();
 
@@ -52,7 +55,7 @@ const FormOffer = () => {
         })
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit_ = (e) => {
         e.preventDefault();
         if (offerData.firstName && offerData.lastName && offerData.email && offerData.phone && offerData.messageText) {
             dispatch(createOfferMessage(offerData));
@@ -63,6 +66,43 @@ const FormOffer = () => {
         }
     }
 
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        setLoading(true);
+        if (!offerData.firstName || !offerData.lastName || !offerData.email || !offerData.phone || !offerData.messageText) {
+            errorModal();
+            setLoading(false);
+        } else {
+            axios({
+                method: "POST",
+                url: "https://formbold.com/s/9X1KM",
+                data: {
+                    "Nama Depan": offerData.firstName,
+                    "Nama Belakang": offerData.lastName,
+                    "Email": offerData.email,
+                    "Phone": offerData.phone,
+                    "Isi Pesan": offerData.messageText
+                },
+            })
+            .then((r) => {
+                console.log(offerData);
+                showModal();
+                clearForm();
+                setLoading(false);
+            })
+            .catch((r) => {
+                console.log(r);
+                setLoading(false);
+                Swal.fire({
+                    title: 'ERROR!',
+                    text: r,
+                    icon: 'error',
+                    confirmButtonText: 'OK'
+                })
+            });
+        }
+    }
+    
     return (
         <section id="form-offer">
             <div className="container bg-primary form-offer">
@@ -78,10 +118,11 @@ const FormOffer = () => {
                                     class="form-control form-control-lg" 
                                     id="firstnameInput" 
                                     placeholder="Nama Depan" 
+                                    required={true}
                                     value={offerData.firstName}
                                     onChange={(e) => setOfferData({ ...offerData, firstName: e.target.value})}
                                 />
-                                <label htmlFor="firstnameInput">Nama Depan</label>
+                                <label htmlFor="firstnameInput">Nama Depan <span className="text-danger">*</span></label>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -89,11 +130,12 @@ const FormOffer = () => {
                                 <input type="text" 
                                     class="form-control form-control-lg" 
                                     id="lastnameInput" 
-                                    placeholder="Nama Belakang" 
+                                    placeholder="Nama Belakang"
+                                    required={true} 
                                     value={offerData.lastName}
                                     onChange={(e) => setOfferData({ ...offerData, lastName: e.target.value})}
                                 />
-                                <label htmlFor="lastnameInput">Nama Belakang</label>
+                                <label htmlFor="lastnameInput">Nama Belakang <span className="text-danger">*</span></label>
                             </div>
                         </div>
                     </div>
@@ -104,10 +146,11 @@ const FormOffer = () => {
                                     class="form-control form-control-lg" 
                                     id="emailInput" 
                                     placeholder="Alamat Email" 
+                                    required={true}
                                     value={offerData.email}
                                     onChange={(e) => setOfferData({ ...offerData, email: e.target.value})}
                                 />
-                                <label htmlFor="emailInput">Email address</label>
+                                <label htmlFor="emailInput">Email address <span className="text-danger">*</span></label>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -116,10 +159,11 @@ const FormOffer = () => {
                                     class="form-control form-control-lg" 
                                     id="phoneInput" 
                                     placeholder="No. Telepon" 
+                                    required={true}
                                     value={offerData.phone}
                                     onChange={(e) => setOfferData({ ...offerData, phone: e.target.value})}
                                 />
-                                <label htmlFor="phoneInput">No. Telepon</label>
+                                <label htmlFor="phoneInput">No. Telepon <span className="text-danger">*</span></label>
                             </div>
                         </div>
                     </div>
@@ -129,24 +173,29 @@ const FormOffer = () => {
                                 <textarea class="form-control" 
                                     id="messageInput"
                                     placeholder="Pesan Anda" 
+                                    required={true}
                                     value={offerData.messageText}
                                     onChange={(e) => setOfferData({ ...offerData, messageText: e.target.value})}
                                     style={{'height': '150px'}}
                                 />
-                                <label htmlFor="messageInput">Masukkan detail permintaan Anda</label>
+                                <label htmlFor="messageInput">Masukkan detail permintaan Anda <span className="text-danger">*</span></label>
                             </div>
                         </div>
                     </div>
                     <div class="d-grid gap-2">
                         <Button
                             className="text-decoration-none py-3"
-                            href=""
-                            type="link"
                             isSecondary="yes"
                             isLarge="yes"
                             isBlock="yes"
                             type="submit"
-                        >Submit Penawaran</Button>
+                        >
+                            { loading == true ?
+                            <div class="spinner-border" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                            : 'Submit Penawaran'}
+                        </Button>
                     </div>
                 </form>
             </div>

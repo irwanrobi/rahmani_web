@@ -5,11 +5,12 @@ import * as api from '../api';
 export const getArticles = () => async (dispatch) => {
 
     try {
-        const { data } = await api.fetchArticles();
+        const { data } = await api.fetchArticlesList();
         dispatch({ 
             type: FETCH_ALL_ARTICLES, 
             payload: data
         });
+        console.log(data);
     } catch (error) {
         console.log(error.message)
     }
