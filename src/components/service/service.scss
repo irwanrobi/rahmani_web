@@ -10,6 +10,11 @@
     }
 }
 
+#service{
+    width: 100%;
+    overflow-x: hidden;
+}
+
 .service-card > .card-body {
     text-align: center;
     display: flex;

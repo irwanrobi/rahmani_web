@@ -9,6 +9,11 @@
     }
 }
 
+#countries{
+    width: 100%;
+    overflow-x: hidden;
+}
+
 .country-detail {
     display: flex;
     flex-direction: column;

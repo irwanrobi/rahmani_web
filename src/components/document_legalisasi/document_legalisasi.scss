@@ -1,4 +1,6 @@
 #document-legalisasi {
+    width: 100%;
+    overflow-x: hidden;
     
     .container {
         border-radius: 50px;
@@ -44,5 +46,8 @@
 
     .document-legalisasi-detail {
         width: 50%;
+    }
+    .section-title h1 {
+        font-size:2rem;
     }
 }
