@@ -49,12 +49,72 @@ nav.navbar {
   }
 }
 
+@media only screen and (max-width: 912px){
+  nav.navbar {
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    overflow-x: hidden;
+  }
+  nav.navbar .nav-item{
+    margin-left: 20px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   nav.navbar {
     background-color: rgba(0, 0, 0, 1);
     width: 100%;
     overflow-x: hidden;
   }
+
+  .py-5 {
+    padding-top: 1rem !important;
+    padding-bottom: 3rem !important;
+}
+
+  .navbar-brand img {
+    max-width: 100px;
+    width: 100px;
+  }
+
+  nav.navbar .nav-item{
+    margin-left: 20px;
+  }
+
+  .navbar-collapse {
+    
+    ul.navbar-nav {
+      // margin-top: 30px;
+
+      .navbar-link-active {
+
+        .nav-link {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  nav.navbar {
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .py-5 {
+    padding-top: 1rem !important;
+    padding-bottom: 3rem !important;
+}
+
+  .navbar-brand img {
+    max-width: 100px;
+    width: 100px;
+  }
+
   nav.navbar .nav-item{
     margin-left: 20px;
   }
