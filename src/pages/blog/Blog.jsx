@@ -28,10 +28,10 @@ const Blog = () => {
     return (
         <>
          <Helmet>
-          <title>Blog: Konsultan Legalisasi Dokumen dan Penerjemah Tersumpah</title>
-          <meta name="keyword" content="blog legalisasi, jasa legalisasi, legalisasi, legalisir, jasa legalisir, legalisasi dokumen, legalisir dokumen, legalisasi kemenlu, legalisasi kemenkumham, legalisasi kedutaan" />
-          <meta name="og:title" content="Blog: Konsultan Legalisasi Dokumen dan Penerjemah Tersumpah" />
-          <meta property="twitter:title" content="BLog: Konsultan Legalisasi Dokumen dan Penerjemah Tersumpah" />
+          <title>Blog: Konsultan Legalisasi Apostille Dokumen dan Penerjemah Tersumpah</title>
+          <meta name="keyword" content="blog legalisasi, jasa legalisasi, jasa apostille , apostille kedutaan, legalisasi, legalisir, jasa legalisir, legalisasi dokumen, legalisir dokumen, legalisasi kemenlu, legalisasi kemenkumham, legalisasi kedutaan" />
+          <meta name="og:title" content="Blog: Konsultan Legalisasi Apostille Dokumen dan Penerjemah Tersumpah" />
+          <meta property="twitter:title" content="BLog: Konsultan Legalisasi Apostille Dokumen dan Penerjemah Tersumpah" />
          </Helmet>
             <Header Title={PageTitle} />
             <div className="bg-section-light">

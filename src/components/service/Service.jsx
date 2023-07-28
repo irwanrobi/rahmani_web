@@ -25,7 +25,7 @@ const Service = () => {
                             <div className="card-body">
                                 <h2 className="card-title">Jasa Terjemah</h2>
                                 <Divider isTitle="true" />
-                                <p class="card-text">Tim Penerjemah Tersumpah kami telah memiliki SK Gubernur DKI Jakarta dan kami terbiasa menerjemahkan dokumen-dokumen penting untuk pengurusan kedutaan.</p>
+                                <p class="card-text">Tim Penerjemah Tersumpah kami telah memiliki SK Kementerian Hukum dan HAM dan kami terbiasa menerjemahkan dokumen-dokumen penting untuk pengurusan kedutaan.</p>
                             </div>
                         </div>
                         </Link>

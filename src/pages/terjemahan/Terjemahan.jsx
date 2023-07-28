@@ -16,20 +16,20 @@ const Terjemahan = () => {
     return (
         <>
         <Helmet>
-            <title>Konsultan Legalisasi Dokumen dan Penerjemah Tersumpah</title>
-            <meta name="keyword" content="konsultan legalisasi, penerjemah tersumpah, penerjemah resmi, jasa terjemahan, jasa terjemah, legalisasi terjemahan, legalisir terjemahan, legalisasi terjemah, legalisir terjemah " />
-            <meta name="description" content="Penerjemah tersumpah merupakan penerjemah yang sudah memiliki Surat Keputusan (SK) Gubernur DKI.Mereka berhak menerjemahkan dokumen-dokumen penting negara. " />
-            <meta name="og:title" content="Konsultan Legalisasi Dokumen dan Penerjemah Tersumpah" />
-            <meta name="og:description" content="Penerjemah tersumpah merupakan penerjemah yang sudah memiliki Surat Keputusan (SK) Gubernur DKI.Mereka berhak menerjemahkan dokumen-dokumen penting negara." />
-            <meta property="twitter:title" content="Konsultan Legalisasi Dokumen dan Penerjemah Tersumpah" />
-            <meta property="twitter:description" content="Penerjemah tersumpah merupakan penerjemah yang sudah memiliki Surat Keputusan (SK) Gubernur DKI.Mereka berhak menerjemahkan dokumen-dokumen penting negara." />    
+            <title>Konsultan Legalisasi Apostille Dokumen dan Penerjemah Tersumpah</title>
+            <meta name="keyword" content="konsultan legalisasi, jasa apostille , apostille kedutaan, penerjemah tersumpah, penerjemah resmi, jasa terjemahan, jasa terjemah, legalisasi terjemahan, legalisir terjemahan, legalisasi terjemah, legalisir terjemah " />
+            <meta name="description" content="Penerjemah tersumpah merupakan penerjemah yang sudah memiliki Surat Keputusan (SK) Kementerian Hukum dan HAM.Mereka berhak menerjemahkan dokumen-dokumen penting negara. " />
+            <meta name="og:title" content="Konsultan Legalisasi Apostille Dokumen dan Penerjemah Tersumpah" />
+            <meta name="og:description" content="Penerjemah tersumpah merupakan penerjemah yang sudah memiliki Surat Keputusan (SK) Kementerian Hukum dan HAM.Mereka berhak menerjemahkan dokumen-dokumen penting negara." />
+            <meta property="twitter:title" content="Konsultan Legalisasi Apostille Dokumen dan Penerjemah Tersumpah" />
+            <meta property="twitter:description" content="Penerjemah tersumpah merupakan penerjemah yang sudah memiliki Surat Keputusan (SK) Kementerian Hukum dan HAM.Mereka berhak menerjemahkan dokumen-dokumen penting negara." />    
 
         </Helmet>
             <Header Title={PageTitle} />
             <div className="bg-section-light">
                 <Intro
                     Title="Apa itu Jasa Penerjemah?" 
-                    Content="Penerjemah tersumpah merupakan penerjemah yang sudah memiliki Surat Keputusan (SK) Gubernur DKI Jakarta. Mereka baru bisa menjalankan proses legal setelah memiliki SK Gubernur DKI Jakarta. Maka mereka berhak menerjemahkan dokumen-dokumen penting negara, tanda tangan atau endorse dari pernerjemah tersebut setalah sudah terdaftar di kementrian hukum dan ham dan kedutaan besar negara. Hal ini bertujuan untuk memudahkan pihak kedutaan mudah memverifikasi hasil terjemahan tersebut."
+                    Content="Penerjemah tersumpah merupakan penerjemah yang sudah memiliki Surat Keputusan (SK) Kementerian Hukum dan HAM. Mereka baru bisa menjalankan proses legal setelah memiliki SK Kementerian Hukum dan HAM. Maka mereka berhak menerjemahkan dokumen-dokumen penting negara, tanda tangan atau endorse dari pernerjemah tersebut setalah sudah terdaftar di kementrian hukum dan ham dan kedutaan besar negara. Hal ini bertujuan untuk memudahkan pihak kedutaan mudah memverifikasi hasil terjemahan tersebut."
                     Image={ImageFeatured} />
                 <Country />
             </div>

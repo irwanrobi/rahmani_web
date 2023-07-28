@@ -15,12 +15,12 @@ const Terjemahan = () => {
     return (
         <>
         <Helmet>
-          <title>Konsultan Legalisasi Dokumen dan Penerjemah Tersumpah</title>
-          <meta name="keyword" content="konsultan legalisasi, jasa legalisasi, legalisasi, legalisir, jasa legalisir, legalisasi dokumen, legalisasi kemenlu, legalisasi kemenkumham" />
+          <title>Konsultan Legalisasi Apostille Dokumen dan Penerjemah Tersumpah</title>
+          <meta name="keyword" content="konsultan legalisasi, jasa legalisasi, jasa apostille , apostille kedutaan, legalisasi kedutaan, legalisir, jasa legalisir, legalisasi dokumen, legalisasi kemenlu, legalisasi kemenkumham" />
           <meta name="description" content="Jasa legalisasi kami merupakan  konsultan dokumen yang sudah profesional dan berpengalaman selama lebih dari 20 tahun ke berbagai instansi pemerintah  dan swasta" />
-          <meta name="og:title" content="Konsultan Legalisasi Dokumen dan Penerjemah Tersumpah" />
+          <meta name="og:title" content="Konsultan Legalisasi Apostille Dokumen dan Penerjemah Tersumpah" />
           <meta name="og:description" content="Jasa legalisasi kami merupakan  konsultan dokumen yang sudah profesional dan berpengalaman selama lebih dari 20 tahun ke berbagai instansi pemerintah  dan swasta" />
-          <meta property="twitter:title" content="Konsultan Legalisasi Dokumen dan Penerjemah Tersumpah" />
+          <meta property="twitter:title" content="Konsultan Legalisasi Apostille Dokumen dan Penerjemah Tersumpah" />
           <meta property="twitter:description" content="Jasa legalisasi kami merupakan  konsultan dokumen yang sudah profesional dan berpengalaman selama lebih dari 20 tahun ke berbagai instansi pemerintah  dan swasta" />
         </Helmet>
             <Header Title={PageTitle} />
